@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amal Krishna P | Cybersecurity Portfolio</title>
+  <meta name="description" content="Amal Krishna P cybersecurity portfolio with projects, dashboard, certifications, resume, and contact." />
+  <meta name="theme-color" content="#050916" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23050916'/%3E%3Cpath d='M32 10l16 6v11c0 12-7.5 22-16 27-8.5-5-16-15-16-27V16l16-6z' fill='%2367e8f9'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <div class="bg" id="bg">
+    <div class="aurora"></div>
+    <div class="grid"></div>
+    <div class="scan"></div>
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="ring ring1"></div>
+    <div class="ring ring2"></div>
+    <div class="binary">01101010 10110011 00101100 11010101 01011010</div>
+  </div>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">
+        <div class="logo">A</div>
+        <div>
+          <div class="brand-title">AMAL KRISHNA P</div>
+          <div class="brand-sub">Cybersecurity Portfolio</div>
+        </div>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+
+      <nav class="links" id="mobileNav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#certs">Certs</a>
+        <a href="#github">GitHub</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="pill">Open to Work • SOC / Cybersecurity / IT Support</div>
+          <h1>Building a career in <span>Cybersecurity</span></h1>
+          <div class="typing" id="typedText"></div>
+
+          <p class="lead">
+            I enjoy analyzing systems, understanding how things break, and learning how to secure them. I’m focused on practical cybersecurity growth through projects, labs, monitoring, and continuous hands-on learning.
+          </p>
+
+          <div class="actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="YOUR_RESUME_LINK" target="_blank" rel="noreferrer">Download Resume</a>
+          </div>
+
+          <div class="last-updated">Last updated: March 2026</div>
+
+          <div class="mini-story">
+            <strong>Why I do this</strong>
+            <p>I’m curious about networks, system behavior, threat patterns, and the process of turning technical learning into real-world defensive value.</p>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat"><strong>03+</strong><span>Projects</span></div>
+            <div class="stat"><strong>24/7</strong><span>Security Mindset</span></div>
+            <div class="stat"><strong>Entry</strong><span>Job Ready</span></div>
+          </div>
+
+          <div class="achievement-strip reveal">
+            <div class="achievement-item">
+              <strong>TryHackMe</strong>
+              <span>Active lab learning</span>
+            </div>
+            <div class="achievement-item">
+              <strong>Projects</strong>
+              <span>Security-focused practice</span>
+            </div>
+            <div class="achievement-item">
+              <strong>Cert Path</strong>
+              <span>CEH + cyber growth</span>
+            </div>
+            <div class="achievement-item">
+              <strong>Goal</strong>
+              <span>SOC / Cyber roles</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-side reveal">
+          <div class="card">
+            <div class="card-head">
+              <span class="eyebrow">Security Dashboard</span>
+              <span class="dot"></span>
+            </div>
+            <h3>Readiness Snapshot</h3>
+
+            <div class="metric-row"><span>Threat Awareness</span><span>88%</span></div>
+            <div class="bar"><span style="width:88%"></span></div>
+
+            <div class="metric-row"><span>System Analysis</span><span>84%</span></div>
+            <div class="bar"><span style="width:84%"></span></div>
+
+            <div class="metric-row"><span>Network Visibility</span><span>86%</span></div>
+            <div class="bar"><span style="width:86%"></span></div>
+
+            <div class="tags">
+              <span>Wireshark</span>
+              <span>Nmap</span>
+              <span>Burp</span>
+              <span>Linux</span>
+            </div>
+          </div>
+
+          <div class="card quote-card">
+            <p>“I enjoy analyzing systems and understanding how things break — and how to fix them.”</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2>Focused, practical, and growing with purpose.</h2>
+          </div>
+          <p class="section-note">
+            This site is designed to present me as a motivated cybersecurity candidate with hands-on learning, clear direction, and a strong professional foundation.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card reveal">
+            <h3>Profile</h3>
+            <p>BSc Computer Science graduate with strong interest in cybersecurity, IT operations, system monitoring, and security analysis.</p>
+          </div>
+          <div class="card reveal">
+            <h3>Career Goal</h3>
+            <p>Looking for entry-level opportunities in SOC, Cybersecurity, IT Support, and Security Operations roles.</p>
+          </div>
+          <div class="card reveal">
+            <h3>Strengths</h3>
+            <ul class="list">
+              <li>Analytical mindset</li>
+              <li>Fast learner</li>
+              <li>Hands-on labs</li>
+              <li>Documentation focus</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Skills</p>
+            <h2>Technical strengths with visual skill bars.</h2>
+          </div>
+          <p class="section-note">Structured to help recruiters quickly understand my core areas.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="card reveal">
+            <h3>Core Skills</h3>
+
+            <div class="metric-row"><span>Networking</span><span>85%</span></div>
+            <div class="bar"><span style="width:85%"></span></div>
+
+            <div class="metric-row"><span>Linux / Windows</span><span>82%</span></div>
+            <div class="bar"><span style="width:82%"></span></div>
+
+            <div class="metric-row"><span>Security Monitoring</span><span>80%</span></div>
+            <div class="bar"><span style="width:80%"></span></div>
+
+            <div class="metric-row"><span>Log Analysis</span><span>78%</span></div>
+            <div class="bar"><span style="width:78%"></span></div>
+          </div>
+
+          <div class="card reveal">
+            <h3>Tools</h3>
+            <div class="tool-tags">
+              <span>Wireshark</span>
+              <span>Nmap</span>
+              <span>Burp Suite</span>
+              <span>Metasploit</span>
+              <span>Kali Linux</span>
+              <span>TryHackMe</span>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <h3>Open to Work</h3>
+            <div class="work-badge">✓ SOC Analyst Intern</div>
+            <div class="work-badge">✓ Cybersecurity Analyst Intern</div>
+            <div class="work-badge">✓ IT Support</div>
+            <div class="work-badge">✓ Security Operations</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Projects</p>
+            <h2>Hands-on work presented like case studies.</h2>
+          </div>
+          <p class="section-note">Add your real GitHub repo links here later for stronger credibility.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-visual">
+              <img src="https://via.placeholder.com/800x450/06111d/67e8f9?text=Network+Traffic+Analyzer" alt="Project screenshot" />
+            </div>
+            <h3>Network Traffic Analyzer</h3>
+            <p>Focused on traffic visibility, packet review, and foundational network analysis.</p>
+            <div class="project-detail">
+              <strong>Tools:</strong> Python, Wireshark concepts, packet analysis
+            </div>
+            <div class="project-detail">
+              <strong>Outcome:</strong> Better understanding of flow inspection and anomaly awareness
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/amalkrishna10766" target="_blank" rel="noreferrer">GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual">
+              <img src="https://via.placeholder.com/800x450/06111d/60a5fa?text=Security+Monitoring+Practice" alt="Project screenshot" />
+            </div>
+            <h3>Security Monitoring Practice</h3>
+            <p>Explored alerts, logs, endpoint visibility, and monitoring concepts in lab environments.</p>
+            <div class="project-detail">
+              <strong>Tools:</strong> SIEM concepts, logs, endpoints
+            </div>
+            <div class="project-detail">
+              <strong>Outcome:</strong> Improved alert reading and defensive thinking
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/amalkrishna10766" target="_blank" rel="noreferrer">GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual">
+              <img src="https://via.placeholder.com/800x450/06111d/67e8f9?text=Web+Vulnerability+Testing" alt="Project screenshot" />
+            </div>
+            <h3>Web Vulnerability Testing</h3>
+            <p>Hands-on exposure to common web issues and HTTP-focused security analysis using labs.</p>
+            <div class="project-detail">
+              <strong>Tools:</strong> Burp Suite, HTTP analysis, web labs
+            </div>
+            <div class="project-detail">
+              <strong>Outcome:</strong> Better awareness of web attack surfaces
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/amalkrishna10766" target="_blank" rel="noreferrer">GitHub ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="dashboard" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Security Dashboard</p>
+            <h2>A recruiter-friendly visual command center.</h2>
+          </div>
+          <p class="section-note">Adds impact and makes the site feel more advanced.</p>
+        </div>
+
+        <div class="dashboard-grid">
+          <div class="card reveal">
+            <h3>Threats Analyzed</h3>
+            <div class="big-number">117</div>
+          </div>
+          <div class="card reveal">
+            <h3>Labs Completed</h3>
+            <div class="big-number">34</div>
+          </div>
+          <div class="card reveal">
+            <h3>Tools Practiced</h3>
+            <div class="big-number">8</div>
+          </div>
+          <div class="card reveal">
+            <h3>GitHub Focus</h3>
+            <p>Security learning, scripts, lab work, and technical growth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="certs" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Certifications</p>
+            <h2>Learning path and credentials.</h2>
+          </div>
+          <p class="section-note">Show real progress clearly and confidently.</p>
+        </div>
+
+        <div class="certs-grid">
+          <div class="cert-card reveal"><strong>CEH v13</strong><span>Pursuing</span></div>
+          <div class="cert-card reveal"><strong>Diploma in Ethical Hacking</strong><span>Completed</span></div>
+          <div class="cert-card reveal"><strong>Routing & Switching</strong><span>Completed</span></div>
+          <div class="cert-card reveal"><strong>BSc Computer Science</strong><span>Completed</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="github" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">GitHub Activity</p>
+            <h2>Show your public coding identity.</h2>
+          </div>
+          <p class="section-note">This gives the portfolio more authenticity and technical credibility.</p>
+        </div>
+
+        <div class="github-panel card reveal">
+          <div class="github-top">
+            <div>
+              <h3>GitHub Profile</h3>
+              <p>github.com/amalkrishna10766</p>
+            </div>
+            <a class="btn btn-secondary" href="https://github.com/amalkrishna10766" target="_blank" rel="noreferrer">Visit GitHub</a>
+          </div>
+          <p class="body-text">
+            Use this section to highlight repositories, security tools, scripts, mini-projects, and practical exercises that support your cybersecurity journey.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s connect and build something secure.</h2>
+          </div>
+          <p class="section-note">Professional closing with recruiter-friendly contact options.</p>
+        </div>
+
+        <div class="contact-shell card reveal">
+          <p class="contact-copy">
+            Open to cybersecurity, SOC, and IT support opportunities. Let’s connect and build something secure, useful, and impactful.
+          </p>
+
+          <div class="contact-grid">
+            <a class="contact-card" href="mailto:amalkrishna10766@gmail.com">
+              <div class="contact-icon">✉</div>
+              <p class="muted">Email</p>
+              <p>amalkrishna10766@gmail.com</p>
+            </a>
+
+            <a class="contact-card" href="https://www.linkedin.com/in/amal-krishna-p/" target="_blank" rel="noreferrer">
+              <div class="contact-icon">in</div>
+              <p class="muted">LinkedIn</p>
+              <p>amal-krishna-p</p>
+            </a>
+
+            <a class="contact-card" href="https://github.com/amalkrishna10766" target="_blank" rel="noreferrer">
+              <div class="contact-icon">⌘</div>
+              <p class="muted">GitHub</p>
+              <p>amalkrishna10766</p>
+            </a>
+
+            <a class="contact-card" href="tel:+917907110896">
+              <div class="contact-icon">☎</div>
+              <p class="muted">Phone</p>
+              <p>+91 7907110896</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div class="footer-actions">
+      <a class="btn btn-secondary" href="YOUR_RESUME_LINK" target="_blank" rel="noreferrer">Download Resume</a>
+    </div>
+    <div class="footer-updated">Last updated: March 2026</div>
+    © 2026 Amal Krishna P — Built for cybersecurity opportunities.
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
